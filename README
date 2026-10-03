@@ -1,0 +1,13 @@
+Abstract
+
+Visual impairment affects millions of people worldwide, making everyday tasks such as reading text, identifying objects, recognizing currency, and recognizing familiar faces
+significantly more difficult, which in turn reduces independence and raises safety concerns (WHO, 2026). Existing assistive applications such as Microsoft's Seeing AI and 
+Be My Eyes offer valuable support, but they rely heavily on continuous internet connectivity and cloud-based processing, offer limited support for regional languages such as 
+Urdu, and do not provide a fully private, locally managed face-recognition system. This leaves a clear gap for users in low-connectivity regions or those who are not fluent 
+in English.
+This project proposes Binai (بینائی), an offline-capable Android application that uses on-device artificial intelligence to assist visually impaired users without depending 
+on cloud services. Binai integrates object detection, currency recognition, private face recognition, optical character recognition (OCR), voice commands, SOS alerts and 
+reminders, and a Live Guidance feature, all supporting bilingual voice interaction in Urdu and English. The Live Guidance feature combines on-device object detection with 
+Android's ARCore Depth API to detect nearby objects, estimate their distance, and deliver short spoken instructions in real time. By consolidating multiple assistive 
+functions into a single, private, offline mobile application, Binai aims to reduce dependence on cloud infrastructure and fragmented tools, improve accessibility for 
+  Urdu-speaking users, and offer a practical, independently achievable solution within a Final Year Project development cycle.
